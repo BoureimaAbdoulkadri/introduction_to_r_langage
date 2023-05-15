@@ -17,7 +17,7 @@ V1 = c(-1,3.2,-2,8)
 V2 <- c(-2,-1,0,1,2,3,4,5,6)
 V3 <- c(0.05,0.1,0.15,0.2)
 V4 = (1,1,1,1,1,1,1,1,1,1)
-V5 =(" apple "," banana "," grape ","10"," green . pepper ")
+V5 =(" apple "," banana "," grape ","10 green . pepper ")
 print(V1)
 # opration sur les vectures 
 V6 = c(2 * V2 – 3)
@@ -89,6 +89,17 @@ bouleFun <- function(a,b) {
 }
 
 #bouleFun(4,3)
+
+
+fruits <-function(a,b){ 
+for (x in adj) {
+  for (y in fruits) {
+    print(paste(x, y))
+  }
+ }
+}
+
+fui
 # code Assane
 
 evenCheck <- function(a, b) { 
@@ -102,6 +113,7 @@ evenCheck <- function(a, b) {
 
 
 evenCheck(0, 5)
+
 
 # Exercice 7 : Jeu de données forbes
 # install.packages("MASS")
