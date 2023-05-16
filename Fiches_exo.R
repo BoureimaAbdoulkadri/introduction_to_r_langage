@@ -13,14 +13,14 @@ print(b)
 print(c)
 
 # les commandes C(), req(), rep(): 
-V1 = c(-1,3.2,-2,8)
+V1 <- c(-1,3.2,-2,8)
 V2 <- c(-2,-1,0,1,2,3,4,5,6)
 V3 <- c(0.05,0.1,0.15,0.2)
-V4 = (1,1,1,1,1,1,1,1,1,1)
-V5 =(" apple "," banana "," grape ","10 green . pepper ")
+V4 <- (1,1,1,1,1,1,1,1,1,1)
+V5 <- (" apple "," banana "," grape ","10 green . pepper ")
 print(V1)
 # opration sur les vectures 
-V6 = c(2 * V2 – 3)
+V6 <- c(2 * V2 – 3)
 V7 <- V3+V2
 
 
